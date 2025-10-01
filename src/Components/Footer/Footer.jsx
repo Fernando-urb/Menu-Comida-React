@@ -1,12 +1,17 @@
 import "./Footer.css"
 
 const Footer = () => {
+  const currentYear =new Date().getFullYear()
+
+
+
+
   return (
     <div>
         <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h3>🍽️ El Buen Sabor</h3>
+          <h3>Che Pizaa 🍕</h3>
           <p>Serviendo los mejores platos desde 2024</p>
         </div>
         
